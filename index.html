@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ฟอร์มกรอกข้อมูล</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+  	<div class="main container">
+  	<section class="section">
+      <form>
+  		  <h1 class="title">
+          แบบสำรวจหมู่บ้าน
+      	</h1>
+        <div class="field">
+          <label class="label">ชื่อ-นามสกุล เจ้าบ้าน</label>
+          <div class="control">
+            <input class="input is-danger is-rounded" type="text" placeholder="ชื่อ-นามสกุล">
+          </div>
+          <p class="help is-danger">
+             โปรดกรอกชื่อ-นามสกุล
+          </p>
+        </div>
+
+        <div class="field">
+          <label class="label">อายุ</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">การศึกษาสูงสุด</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                  <option>ป.4</option>
+                  <option>ป.6</option>
+                  <option>ม.3</option>
+                  <option>ม.6</option>
+                  <option>ปวช</option>
+                  <option>ปวส</option>
+                  <option>ปริญญาตรี</option>
+                  <option>สูงกว่าปริญญาตรี</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">เบอร์โทร</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">อาชีพ</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">จำนวนสมาชิกในครัวเรือน</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="label">ลักษณะบ้าน</div>
+
+        <div class="field is-grouped">
+          <label class="label">จำนวนอาคาร</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+
+          <label class="label">จำนวนชั้น</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">แหล่งเงินกู้</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">วัตถุประสงค์ในการกู้</label>
+          <div class="control">
+            <input class="input" type="text">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">ข้อมูลการใช้ไฟฟ้า</label>
+          <div class="control">
+            <div class="select is-link">
+              <select>
+                  <option>มีมิเตอร์เอง</option>
+                  <option>ต่อพ่วงจากที่อื่น</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="label">ข้อมูลการใช้น้ำ</div>
+
+        <div class="field is-grouped is-grouped-multiline">
+          <div class="control">
+           <label class="checkbox">
+              <input type="checkbox">
+              ประปา
+            </label>
+           <label class="checkbox">
+              <input type="checkbox">
+              ตู้หยอดเหรียญ
+            </label>
+            <label class="checkbox">
+              <input type="checkbox">
+              โรงน้ำดื่มในหมู่บ้าน
+            </label>
+            <label class="checkbox">
+              <input type="checkbox">
+              บาดาล
+            </label>
+             <label class="checkbox">
+              <input type="checkbox">
+              สหกรณ์
+            </label>        
+          </div>
+        </div>
+
+        <div class="field is-grouped is-grouped-centered">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+          <button class="button is-link is-light">Cancel</button>
+        </div>
+
+      </form>
+  </section>
+  </body>
+</html>
